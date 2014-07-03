@@ -384,6 +384,7 @@ void ofxUITextInput::setTextString(string s)
     }
     else
     {
+        cursorPosition = 0;
         textstring = s;
         label->setLabel(textstring);
     }
